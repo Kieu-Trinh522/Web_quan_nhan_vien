@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="case.js"></script>
+</head>
+<body>
+
+<style>
+td img {
+    width: auto;
+    height: 50px;
+}
+body{
+    text-align: center;
+}
+</style>
+<table border="1px" style="width: 300px;float: left" >
+    <tr>
+        <td><h3>Name</h3></td>
+        <td><h3>Age</h3></td>
+        <td><h3>Address</h3></td>
+        <td><h3>Birthday</h3></td>
+        <td><h3>Mission</h3></td>
+        <td><h3>Height</h3></td>
+        <td><h3>Weight</h3></td>
+        <td><h3>Image</h3></td>
+        <td><h3>Action</h3></td>
+    </tr>
+    <tr>
+        <td>Kim NamJoon</td>
+        <td>26</td>
+        <td>Korea</td>
+        <td>04/09/1994</td>
+        <td>Rapper</td>
+        <td>181cm</td>
+        <td>65kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88FcJU4AAXCwG?format=jpg&name=large"> </td>
+        <td><button type="button" onclick="editProduct(id)">Edit</button></td>
+
+    </tr>
+    <tr>
+        <td>Kim Seokjin</td>
+        <td>28</td>
+        <td>Korea</td>
+        <td>09/12/1992</td>
+        <td>Vocal</td>
+        <td>178cm</td>
+        <td>65kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88PbxUMAA1GRH?format=jpg&name=large"> </td>
+    </tr>
+    <tr>
+        <td>Min Yoongi</td>
+        <td>27</td>
+        <td>Korea</td>
+        <td>09/03/1993</td>
+        <td>Rapper</td>
+        <td>175cm</td>
+        <td>57kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88CQJUYAAnJJs?format=jpg&name=large"> </td>
+    </tr>
+    <tr>
+        <td>Jung Hoseok</td>
+        <td>26</td>
+        <td>Korea</td>
+        <td>18/02/1994</td>
+        <td>Rapper</td>
+        <td>178cm</td>
+        <td>57kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88QjwUEAAkj7A?format=jpg&name=large"> </td>
+    </tr>
+    <tr>
+        <td>Park Jimin</td>
+        <td>25</td>
+        <td>Korea</td>
+        <td>13/10/1995</td>
+        <td>Vocal</td>
+        <td>173cm</td>
+        <td>60kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88RsiUcAA2Roa?format=jpg&name=4096x4096"> </td>
+    </tr>
+    <tr>
+        <td>Kim Taehuynh</td>
+        <td>25</td>
+        <td>Korea</td>
+        <td>30/12/1995</td>
+        <td>Vocal</td>
+        <td>179cm</td>
+        <td>65kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88A0oUwAAiCGr?format=jpg&name=4096x4096"></td>
+    </tr>
+
+    <tr>
+        <td>Joen Jungkook</td>
+        <td>23</td>
+        <td>Korea</td>
+        <td>01/09/1997</td>
+        <td>Vocal</td>
+        <td>179cm</td>
+        <td>65kg</td>
+        <td><img src="https://pbs.twimg.com/media/Ef88DRkUYAACCJw?format=jpg&name=large"></td></tr><tr>
+    </tr>
+
+</table>
+
+<style>
+    table,td,th {
+        border: 1px solid;
+    }
+    td,th{
+        width: 200px;
+    }
+    tbody {
+        text-align: center;
+    }
+</style>
+
+<table >
+    <form action="">
+
+        <tr>
+           <td><input type="text" id='name' placeholder="Name"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="number" id='age' placeholder="Age"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="text" id='add' placeholder="Add"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="text" id='birthday' placeholder="Birthday"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="text" id='mission' placeholder="Mission"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="text" id='height' placeholder="Height"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="text" id='weight' placeholder="Weight"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="text" id='img' placeholder="Image"></td>
+        </tr>
+
+
+        <tr>
+            <td><input type="button" value="Add" onclick="addIdol()"></td>
+        </tr>
+
+    </form>
+</table>
+<div id="edit"></div>
+<div id="result"></div>
+
+</body>
+</html>
