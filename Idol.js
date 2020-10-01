@@ -135,15 +135,15 @@ function editIdol(id) {
 
 }
 
-function update() {
-    let Name = document.getElementById('name2').value;
-    let Age = document.getElementById('age2').value;
-    let Add = document.getElementById('address2').value;
-    let Birthday = document.getElementById('birthday2').value;
-    let Mission = document.getElementById('mission2').value;
-    let Height = document.getElementById('height2').value;
-    let Weight = document.getElementById('weight2').value;
-    let Image = document.getElementById('img2').value;
+function updateIdol() {
+    let Name = document.getElementById('name').value;
+    let Age = document.getElementById('age').value;
+    let Add = document.getElementById('address').value;
+    let Birthday = document.getElementById('birthday').value;
+    let Mission = document.getElementById('mission').value;
+    let Height = document.getElementById('height').value;
+    let Weight = document.getElementById('weight').value;
+    let Image = document.getElementById('img').value;
     let idol = new Idol(Name, Age, Add, Birthday, Mission, Height, Weight, Image);
     manager.idolList[idolId] = idol;
     display();
