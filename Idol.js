@@ -119,8 +119,7 @@ function addIdol() {
     }
 }
 
-let idolId = 0;
-
+let idolId;
 function editIdol(id) {
     let idol = manager.getIdolById(id);
     document.getElementById('name').value = idol.name;
